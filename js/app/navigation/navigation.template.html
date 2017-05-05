@@ -1,0 +1,32 @@
+<div style="position:fixed;top:0;right:0">
+    <select name="" id="" ng-model="$ctrl.lang" ng-change="$ctrl.update()" material-select>
+        <option value="en">{{$ctrl.data["English"]}}</option>
+        <option value="si">{{$ctrl.data.Sinhala}}</option>
+        <option value="ta">{{$ctrl.data.Tamil}}</option>
+    </select>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col s12 l6">
+            <h1>{{"Suniru Lanka" | translate}}</h1>
+        </div>
+        <div class="col s12 l6">
+            <span>{{"Many things from a one place"|translate}} ...</span>
+        </div>
+    </div>
+    <ul class="row">
+        <li class="col s12 m3">
+            <span>{{"Cakes"|translate}}</span>
+        </li>
+        <li class="col s12 m3">
+            <span>{{"Take Aways"|translate}}</span>
+        </li>
+        <li class="col s12 m3">
+            <span>{{"Wedding Halls"|translate}}</span>
+        </li>
+        <li class="col s12 m3">
+            <span>{{"About us"|translate}}</span>
+        </li>
+    </ul>
+</div>
