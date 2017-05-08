@@ -41,6 +41,20 @@ service('en',[function(){
         "Quantity":"Quantity",
         "With Icing":"With Icing",
         "cake-msg":"we ensure that you get the most delciouse cakes...",
-        "Call to order":"Call to order"
+        "Call to order":"Call to order",
+        "why should you choose Suniru Lanka for your special moments":"Why you should choose Suniru Lanka for your special moments",
+        "Reliable service":"Reliable service",
+        "Customer Satisfactions":"Customer Satisfactions",
+        "Best chefs":"Best chefs",
+        "Many choices to pick":"Many choices to pick",
+        "Suniru Lanka Wedding Halls":"Suniru Lanka Wedding Halls",
+        "The Best wedding and Reception Halls":"The Best wedding and Reception Halls",
+        "Delisiouse Foods":"Delisiouse Foods",
+        "Pick your choice":"Pick your choice",
+        "Customize your menus":"Customize your menus",
+        "Choose what your loved ones perfect preference":"Choose what your loved ones perfect preference",
+        "What is your taste ?":"What is your taste ?",
+        "SriLankan, Indian,Chineese and western menus":"SriLankan, Indian,Chineese and western menus",
+        "Submit":"submit"
     };
 }]);

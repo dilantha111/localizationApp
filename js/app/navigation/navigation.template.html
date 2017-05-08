@@ -8,25 +8,25 @@
 
 <div class="container">
     <div class="row">
-        <div class="col s12 l6">
-            <h1>{{"Suniru Lanka" | translate}}</h1>
+        <div class="col s12 l6" style="text-align:right;">
+            <a href="#!/"><h1>{{$ctrl.data["Suniru Lanka"]}}</h1></a>            
         </div>
-        <div class="col s12 l6">
-            <span>{{"Many things from a one place"|translate}} ...</span>
+        <div class="col s12 l6" style="margin-top: 70px;text-align:center;">
+            <span>{{$ctrl.data["Many things from a one place"]}} ...</span>
         </div>
     </div>
-    <ul class="row">
-        <li class="col s12 m3">
-            <span>{{"Cakes"|translate}}</span>
+    <ul class="row" style="text-align:center;">
+        <li class="col s12 m3" style="background-color: peachpuff;">
+             <a href="#!/cakes">{{$ctrl.data["Cakes"]}}</a>              
         </li>
-        <li class="col s12 m3">
-            <span>{{"Take Aways"|translate}}</span>
+        <li class="col s12 m3" style="background-color: peachpuff;">
+            <a href="#!/takeAway">{{$ctrl.data["Take Aways"]}}</a>            
         </li>
-        <li class="col s12 m3">
-            <span>{{"Wedding Halls"|translate}}</span>
+        <li class="col s12 m3" style="background-color: peachpuff;">            
+            <a href="#!/weddingHalls">{{$ctrl.data["Wedding Halls"]}}</a> 
         </li>
-        <li class="col s12 m3">
-            <span>{{"About us"|translate}}</span>
+        <li class="col s12 m3" style="background-color: peachpuff;">            
+            <a href="#!/aboutUs">{{$ctrl.data["About us"]}}</a> 
         </li>
     </ul>
 </div>

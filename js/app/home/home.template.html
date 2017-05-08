@@ -2,46 +2,102 @@
     <div class="slider" slider>
     <ul class="slides">
         <li>
-            <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+            <img src="imgs/slider4.jpg"> <!-- random image -->
             <div class="caption center-align">
-                <h3>Suniru Lanka Wedding Halls</h3>
-                <h5 class="light grey-text text-lighten-3">The Best wedding and Reception Halls</h5>
+                <h3>{{$ctrl.data["Suniru Lanka Wedding Halls"]}}</h3>
+                <h5 class="light grey-text text-lighten-3">{{"The Best wedding and Reception Halls"|translate}}</h5>
             </div>
         </li>
         <li>
-            <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+            <img src="imgs/slider1.jpg"> <!-- random image -->
             <div class="caption left-align">
-                <h3>Delisiouse Foods</h3>
-                <h5 class="light grey-text text-lighten-3">Pick your choice...</h5>
+                <h3>{{"Delisiouse Foods"|translate}}</h3>
+                <h5 class="light grey-text text-lighten-3">{{"Pick your choice"|translate}}...</h5>
             </div>
         </li>
         <li>
-                <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                <img src="imgs/slider5.jpg"> <!-- random image -->
                 <div class="caption right-align">
-            <h3>Customize your menus</h3>
-            <h5 class="light grey-text text-lighten-3">Choose what your loved ones perfect preference !!!</h5>
+            <h3>{{"Customize your menus"|translate}}</h3>
+            <h5 class="light grey-text text-lighten-3">{{"Choose what your loved ones perfect preference"|translate}} !!!</h5>
             </div>
         </li>
         <li>
-            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <img src="imgs/slider6.jpg"> <!-- random image -->
             <div class="caption center-align">
-                <h3>What is your taste ?</h3>
-                <h5 class="light grey-text text-lighten-3">SriLankan, Indian,Chineese and western menus ...</h5>
+                <h3>{{"What is your taste ?"|translate}}</h3>
+                <h5 class="light grey-text text-lighten-3">{{"SriLankan, Indian,Chineese and western menus"|translate}} ...</h5>
             </div>
         </li>
     </ul>
 </div>
 
-<div>
-    <div>
-        why should you choose Suniru Lanka for your special moments 
+<div id="home">
+    <div class="row">
+        <div class="col s12">
+            <h1 id="banner-text" style="text-align:center;font-size: 2.7rem;">{{"why should you choose Suniru Lanka for your special moments"|translate}}</h1>
+        </div>         
     </div>
-    <ul>
-        <li>Reliable service</li>
-        <li>Customer Satisfactions</li>
-        <li>Best chefs</li>
-        <li>Many choices to pick</li>        
-    </ul>
+    <div class="container">
+        <div class="row" style="text-align:center">
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="large material-icons">face</i>
+                    </div>
+                    <div class="card-content">
+                        {{"Reliable service"|translate}}
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="large material-icons">face</i>
+                    </div>
+                    <div class="card-content">
+                        {{"Customer Satisfactions"|translate}}
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="large material-icons">grade</i>
+                    </div>
+                    <div class="card-content">
+                        {{"Best chefs"|translate}}
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="large material-icons">favorite</i>
+                    </div>
+                    <div class="card-content">
+                        {{"Many choices to pick"|translate}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin:0;padding:0;background-color:black;">
+        <div class="col s12 m3" style="padding:0%;">
+            <img style="max-width:100%;" src="imgs/h4.jpg" alt="">
+        </div>
+        <div class="col s12 m3" style="padding:0%;">
+            <img style="max-width:100%" src="imgs/h2.jpg" alt="">
+        </div>
+        <div class="col s12 m3" style="padding:0%;">
+             <img style="max-width:100%" src="imgs/h5.jpg" alt="">
+        </div>
+        <div class="col s12 m3" style="padding:0%;">
+             <img style="max-width:100%" src="imgs/h6.jpg" alt="">
+        </div>        
+    </div>
+    
 </div>
 
 

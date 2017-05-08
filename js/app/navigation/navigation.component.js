@@ -8,7 +8,7 @@ angular.
             this.update = function(){
                 translateService.lang = this.lang;
                 $route.reload();
-                this.data = translateService.getData();                              
+                this.data = translateService.getData();                       
             };
         }]
     });
